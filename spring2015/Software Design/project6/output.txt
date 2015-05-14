@@ -1,0 +1,50 @@
+class A { int y; int a;int y; void main() { x = 4; y = 5; print(x); }}
+Visitor One:
+The variable x is initialized but is not being declared 
+
+Visitor Two:
+y is decleared more than once! 
+
+class A { int y; void main() { x = 4; y = 5; print(x); }}
+Visitor One:
+The variable x is initialized but is not being declared 
+
+Visitor Two:
+No Errors Found!
+
+class A { int x; void main() { x = 4; y = 5; print(x); }}
+Visitor One:
+The variable y is initialized but is not being declared 
+
+Visitor Two:
+No Errors Found!
+
+class A { int x; void main() { x = 4; y = 5; print(x); }}
+Visitor One:
+The variable y is initialized but is not being declared 
+
+Visitor Two:
+No Errors Found!
+
+class A { int one; int one; int two; int three; void main() { one = 1; four = 4; five = 5; print(one); }}
+Visitor One:
+The variable five is initialized but is not being declared 
+The variable four is initialized but is not being declared 
+
+Visitor Two:
+one is decleared more than once! 
+
+class A { int x; void main() { x = 4; x = x + 3; print(x); }}
+Visitor One:
+No Errors Found!
+
+Visitor Two:
+No Errors Found!
+
+class A { void main() { x = 4; x = x + 3; this.foo(x); } void foo(int y) { print(y); }}
+Visitor One:
+The variable x is initialized but is not being declared 
+
+Visitor Two:
+No Errors Found!
+

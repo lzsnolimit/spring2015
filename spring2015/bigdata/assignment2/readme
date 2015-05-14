@@ -1,0 +1,8 @@
+1,go the the project folder
+2,run the following command in the folder
+mvn package
+3,go to target folder,remember the path of the following file
+assignment2-0.0.1-SNAPSHOT.jar
+4,go to the spark folder,run the following command 
+./bin/spark-submit --class  "App" <assignment2-0.0.1-SNAPSHOT.jar Path> <input path> <output path>
+5,the output file will be in the output folder

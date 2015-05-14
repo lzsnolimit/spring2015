@@ -1,0 +1,33 @@
+﻿body{
+	/*background:linear-gradient(blue, white);*/
+	background-color:#708090;
+	/*background: url(image/open-book.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+#aside{
+	background:#F8F8FF;
+	padding:20px;
+	border-radius:10px;
+}
+
+#section{
+	color:#f8f8ff;
+}
+
+#section p{
+	font-size:20px;
+	width:600px;
+}
+
+#header{
+	background:#f8f8ff;
+	margin-bottom:100px;
+}
+button{
+	box-shadow:5px 5px 10px #708090;
+}
+
+#logo{
+	height:75px;
+}

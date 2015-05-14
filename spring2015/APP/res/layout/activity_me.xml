@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffdddd" >
+
+    <TextView
+        android:id="@+id/meInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="User Id: "
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/meCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/meInfo"
+        android:layout_marginTop="32dp"
+        android:text="My credit: "
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp" />
+
+    <Button
+        android:id="@+id/button_login_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Log out" />
+
+</RelativeLayout>

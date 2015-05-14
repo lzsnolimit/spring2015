@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099CC"
+     >
+
+    <TextView
+        android:id="@+id/departText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Department:"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp" >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextDepart"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/departText"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:height="25dp"
+        android:layout_marginLeft="5dp"
+         >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="fill_parent"
+        android:layout_height="25sp"
+        android:layout_below="@+id/editTextDepart"
+        android:text="Course Id:"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp" >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextCourseNum"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/numberText"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/sectionText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCourseNum"
+        android:layout_marginLeft="5dp"
+        android:text="Course Section:"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextCourseSec"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/sectionText"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCourseSec"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Search" />
+
+</RelativeLayout>

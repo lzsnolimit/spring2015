@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099CC" >
+
+    <TextView
+        android:id="@+id/registerEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Email:"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/registerEmailEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/registerEmail"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/registerPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerEmailEdit"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="14dp"
+        android:text="Password:"
+        android:textSize="15sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/registerPassEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/registerPass"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/registerFirstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerPassEdit"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="14dp"
+        android:text="Firstname:"
+        android:textSize="15sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/registerFirstnameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/registerFirstname"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/registerLastname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerFirstnameEdit"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="14dp"
+        android:text="Lastname:"
+        android:textSize="15sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/registerLastnameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:layout_below="@+id/registerLastname"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/registerRegisterSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/registerLastnameEdit"
+        android:layout_marginTop="14dp"
+        android:text="Sign up"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/registerLoginIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerLastnameEdit"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="14dp"
+        android:text="I have an account"
+        android:textSize="15sp" />
+
+</RelativeLayout>

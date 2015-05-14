@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099CC" >
+
+
+    <TextView
+        android:id="@+id/donateEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/donateEmailEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/donateEmail"
+        android:layout_marginLeft="5dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:height="25dp"  >
+    </EditText>
+
+    <TextView
+        android:id="@+id/donatePhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/donateEmailEdit"
+        android:layout_marginLeft="5dp"
+        android:text="Phone:"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/donatePhoneEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/donatePhone"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:height="25dp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/donateSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/donatePhoneEdit"
+        android:text="Submit"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

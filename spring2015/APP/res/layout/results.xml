@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#0099CC"
+    android:layout_height="fill_parent"
+     >
+
+    <TextView
+        android:id="@+id/detailCourseDepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="14dp"
+        android:text="detailCourseDepart"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:id="@+id/detailCourseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/detailCourseDepart"
+        android:layout_marginTop="14dp"
+        android:text="detailCourseId"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:id="@+id/detailCourseSection"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailCourseId"
+        android:layout_marginTop="14dp"
+        android:text="detailCourseSection" 
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/detailCourseInstructure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/detailCourseSection"
+        android:layout_marginTop="14dp"
+        android:text="detailCourseInstructure"
+        android:layout_marginLeft="5dp" />
+    <Button
+        android:id="@+id/detailDonate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/detailCourseInstructure"
+        android:text="Donate" />
+     <Button
+        android:id="@+id/detailRequire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/detailCourseInstructure"
+        android:layout_marginLeft="100dp"
+        android:text="Request" />
+    
+ </RelativeLayout>
